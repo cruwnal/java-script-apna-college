@@ -32,7 +32,7 @@ let newton = Math.floor(celsius*(33/100));
 console.log(newton);
 
 -----------------------------------------------
-
+[condition] ? [if true- execute] : [if false-execute]
 let isLocked = false;
 
 isLocked ? 
