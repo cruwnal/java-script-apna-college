@@ -31,3 +31,34 @@ let newton = Math.floor(celsius*(33/100));
 
 console.log(newton);
 
+-----------------------------------------------
+
+//my age 
+
+const myAge = 2;
+
+//early year which will going to change 
+let earlyYears = 2;
+
+//earlyYear
+earlyYears = earlyYears * 10.5;
+
+//removing 2
+let laterYears = myAge-2;
+
+//calculate the number of dog years accounted for by your later years. 
+laterYears = laterYears*4;
+
+console.log(earlyYears+" "+laterYears);
+
+//my age in dog years
+
+let myAgeInDogYears = earlyYears + laterYears;
+
+
+//toLowerCase 
+let myName = 'KUNAL_NAGWANSHI'.toLowerCase();
+
+console.log(`My name is ${myName}. I am HUMAN ${myAge} years old in human years which is  ${myAgeInDogYears} years old in dog years`);
+
+console.log(myName);
