@@ -1,0 +1,12 @@
+
+
+
+
+let myName='kunal';
+
+let myCity ='Bhopal';
+
+const myPet= 'dog';
+console.log(`I own a pet ${myPet}.`);
+
+console.log(`my name is ${myName}. my favorite city is ${myCity}`);
