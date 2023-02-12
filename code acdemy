@@ -118,3 +118,27 @@ switch(randomNumber){
   break;
 }
 console.log(eightBall);
+---------------------------------------------------------
+
+let raceNumber = Math.floor(Math.random() * 1000);
+let regTime = true;
+let chkTime = 'early';
+if(regTime){
+  chkTime = 'early'
+}else{
+  chkTime = 'late'
+}
+
+let runnerAge = 18;
+if(chkTime==='early' && runnerAge > 18 ) { raceNumber = raceNumber+1000 }
+else{ raceNumber = raceNumber;}
+
+if(runnerAge>18 && chkTime =='early'){
+  console.log(`${raceNumber} you will race at 9:30 am`)
+}else if (runnerAge>18 && chkTime =='late' ){
+  console.log('Late adults run at 11:00 am')
+}else if(runnerAge< 18){
+  console.log(`${raceNumber} will run at 12:30 pm`);
+}else{
+  console.log(` ${raceNumber} to see the registration desk`);
+}
