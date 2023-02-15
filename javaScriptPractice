@@ -63,3 +63,8 @@
 </script>
 </body>
 </html>
+________________________________
+
+//arrow function 
+[function name ]    [parameter]  [functuon body with implicit return]
+const plantNeedsWater = day =>   day === 'Wednesday' ? true : false;
